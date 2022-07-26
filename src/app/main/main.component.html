@@ -1,0 +1,254 @@
+<main>
+    <br>
+    <div id="div1">
+        <h1> Calculadora de fatoraçao </h1>
+        <br>
+        <label for="inp">
+            <h3>Digite o valor a ser fatorado </h3>
+        </label>
+        <br>
+        <input step="1" [(ngModel)]="valor" id="inp" type="number" inputmode="numeric">
+        <button (click)="Calcular()"> Calcular </button>
+        <br>
+        <br>
+        <textarea value='' style=height:100px; id="inppp" inputmode="numeric"></textarea>
+    </div>
+
+    <div id="div2">
+
+        <h2> Calculadora de regra de 3</h2>
+        <br>
+        <p> criada usando ngModel </p>
+
+        <section class="menu">
+
+            <input type="text" inputmode="numeric" [(ngModel)]="num">
+            <p> está para </p>
+            <input id="in2" type="text" inputmode="numeric" [(ngModel)]="num2">
+
+            <input id="in3" type="text" inputmode="numeric" [(ngModel)]="num3">
+            <p> está para </p>
+
+            <input readonly value="{{ 
+            num == 0 || num2 == 0 || num3 == 0 ? 0 : num2*num3/num | number:'1.0-2'}}">
+
+        </section>
+
+    </div>
+
+    <div id="div3" class="accordion">
+
+        <button (click)="show()" type="button" class="accordion__button">Mostrar/esconder</button>
+
+
+        <p class="accordion__content">
+            ss
+            Nam viverra, augue vitae pharetra sollicitudin, magna risus maximus metus, sed vehicula enim leo
+            pharetra
+            ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam
+            loborta.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula lu ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam
+            loborta.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luca.
+            Praesent nunc puru ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam
+            loborta.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luca.
+            Praesent nunc puru ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam
+            loborta.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luca.
+            Praesent nunc puru ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam
+            loborta.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luca.
+            Praesent nunc puruca.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula lucis,
+            ornareio.</p>
+
+
+
+    </div>
+
+
+
+    <div data-aos="fade-right" id="div4">
+        <p>Nam viverra, augue vitae pharetra sollicitudin, magna risus maximus metus, sed vehicula enim leo pharetra
+            ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luctus ligula ullamcorper pharetra. Proin rhoncus sapien nec massa vehicula, et dapibus
+            nisl
+            pretium. Suspendisse vulputate odio a magna auctor euismod. Nunc tincidunt mi non bibendum consequat. Nullam
+            dui
+            sapien, tristique in mattis ac, iaculis sed ipsum. Etiam tristique tincidunt scelerisque. Nulla tellus
+            mauris,
+            mollis id imperdiet at, ornare aliquet lorem. Suspendisse mattis dui id libero gravida efficitur.
+            Pellentesque
+            mauris lectus, accumsan non leo a, varius commodo urna. Vivamus commodo vulputate nulla at pretium. Integer
+            pretium
+            turpis eget nulla sollicitudin, a ultricies sapien sollicitudin.
+
+            Nullam aliquam ut dolor non tristique. Phasellus in congue mi, nec viverra ex. Donec aliquet id justo
+            maximus
+            varius. Donec justo arcu, porttitor vel lectus sit amet, sagittis faucibus nibh. Nulla quam magna, faucibus
+            sit
+            amet
+            tortor fringilla, sagittis ullamcorper ligula. Integer vel lorem iaculis, tincidunt diam et, fermentum leo.
+            Fusce
+            nec elit nibh. Aliquam fermentum rhoncus lorem, luctus vulputate nibh tempus id. Morbi tincidunt massa ut
+            nunc
+            vestibulum, sed auctor dui consectetur. Nam auctor arcu ac eros gravida, et faucibus sem consectetur.
+            Pellentesque
+            odio nibh, rutrum et ultrices at, sodales non odio.</p>
+    </div>
+    <div data-aos="fade-up" id="div5">
+        <p>Nam viverra, augue vitae pharetra sollicitudin, magna risus maximus metus, sed vehicula enim leo pharetra
+            ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luctus ligula ullamcorper pharetra. Proin rhoncus sapien nec massa vehicula, et dapibus
+            nisl
+            pretium. Suspendisse vulputate odio a magna auctor euismod. Nunc tincidunt mi non bibendum consequat. Nullam
+            dui
+            sapien, tristique in mattis ac, iaculis sed ipsum. Etiam tristique tincidunt scelerisque. Nulla tellus
+            mauris,
+            mollis id imperdiet at, ornare aliquet lorem. Suspendisse mattis dui id libero gravida efficitur.
+            Pellentesque
+            mauris lectus, accumsan non leo a, varius commodo urna. Vivamus commodo vulputate nulla at pretium. Integer
+            pretium
+            turpis eget nulla sollicitudin, a ultricies sapien sollicitudin.
+
+            Nullam aliquam ut dolor non tristique. Phasellus in congue mi, nec viverra ex. Donec aliquet id justo
+            maximus
+            varius. Donec justo arcu, porttitor vel lectus sit amet, sagittis faucibus nibh. Nulla quam magna, faucibus
+            sit
+            amet
+            tortor fringilla, sagittis ullamcorper ligula. Integer vel lorem iaculis, tincidunt diam et, fermentum leo.
+            Fusce
+            nec elit nibh. Aliquam fermentum rhoncus lorem, luctus vulputate nibh tempus id. Morbi tincidunt massa ut
+            nunc
+            vestibulum, sed auctor dui consectetur. Nam auctor arcu ac eros gravida, et faucibus sem consectetur.
+            Pellentesque
+            odio nibh, rutrum et ultrices at, sodales non odio.</p>
+    </div>
+
+    <div data-aos="fade-left" id="div6">
+        <p>Nam viverra, augue vitae pharetra sollicitudin, magna risus maximus metus, sed vehicula enim leo pharetra
+            ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luctus ligula ullamcorper pharetra. Proin rhoncus sapien nec massa vehicula, et dapibus
+            nisl
+            pretium. Suspendisse vulputate odio a magna auctor euismod. Nunc tincidunt mi non bibendum consequat. Nullam
+            dui
+            sapien, tristique in mattis ac, iaculis sed ipsum. Etiam tristique tincidunt scelerisque. Nulla tellus
+            mauris,
+            mollis id imperdiet at, ornare aliquet lorem. Suspendisse mattis dui id libero gravida efficitur.
+            Pellentesque
+            mauris lectus, accumsan non leo a, varius commodo urna. Vivamus commodo vulputate nulla at pretium. Integer
+            pretium
+            turpis eget nulla sollicitudin, a ultricies sapien sollicitudin.
+
+            Nullam aliquam ut dolor non tristique. Phasellus in congue mi, nec viverra ex. Donec aliquet id justo
+            maximus
+            varius. Donec justo arcu, porttitor vel lectus sit amet, sagittis faucibus nibh. Nulla quam magna, faucibus
+            sit
+            amet
+            tortor fringilla, sagittis ullamcorper ligula. Integer vel lorem iaculis, tincidunt diam et, fermentum leo.
+            Fusce
+            nec elit nibh. Aliquam fermentum rhoncus lorem, luctus vulputate nibh tempus id. Morbi tincidunt massa ut
+            nunc
+            vestibulum, sed auctor dui consectetur. Nam auctor arcu ac eros gravida, et faucibus sem consectetur.
+            Pellentesque
+            odio nibh, rutrum et ultrices at, sodales non odio.</p>
+    </div>
+
+    <div data-aos="zoom-in-right">
+
+        <p>Nam viverra, augue vitae pharetra sollicitudin, magna risus maximus metus, sed vehicula enim leo pharetra
+            ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luctus ligula ullamcorper pharetra. Proin rhoncus sapien nec massa vehicula, et dapibus
+            nisl
+            pretium. Suspendisse vulputate odio a magna auctor euismod. Nunc tincidunt mi non bibendum consequat. Nullam
+            dui
+            sapien, tristique in mattis ac, iaculis sed ipsum. Etiam tristique tincidunt scelerisque. Nulla tellus
+            mauris,
+            mollis id imperdiet at, ornare aliquet lorem. Suspendisse mattis dui id libero gravida efficitur.
+            Pellentesque
+            mauris lectus, accumsan non leo a, varius commodo urna. Vivamus commodo vulputate nulla at pretium. Integer
+            pretium
+            turpis eget nulla sollicitudin, a ultricies sapien sollicitudin.
+
+            Nullam aliquam ut dolor non tristique. Phasellus in congue mi, nec viverra ex. Donec aliquet id justo
+            maximus
+            varius. Donec justo arcu, porttitor vel lectus sit amet, sagittis faucibus nibh. Nulla quam magna, faucibus
+            sit
+            amet
+            tortor fringilla, sagittis ullamcorper ligula. Integer vel lorem iaculis, tincidunt diam et, fermentum leo.
+            Fusce
+            nec elit nibh. Aliquam fermentum rhoncus lorem, luctus vulputate nibh tempus id. Morbi tincidunt massa ut
+            nunc
+            vestibulum, sed auctor dui consectetur. Nam auctor arcu ac eros gravida, et faucibus sem consectetur.
+            Pellentesque
+            odio nibh, rutrum et ultrices at, sodales non odio.</p>
+    </div>
+
+    <div data-aos="zoom-in-left">
+        <p>Nam viverra, augue vitae pharetra sollicitudin, magna risus maximus metus, sed vehicula enim leo pharetra
+            ligula.
+            Praesent nunc purus, facilisis imperdiet ultrices volutpat, euismod ac diam. Suspendisse ut quam lobortis,
+            ornare
+            turpis elementum, mattis metus. Integer a dignissim nisi, non maximus tortor. Donec id luctus sapien. Fusce
+            facilisis ligula luctus ligula ullamcorper pharetra. Proin rhoncus sapien nec massa vehicula, et dapibus
+            nisl
+            pretium. Suspendisse vulputate odio a magna auctor euismod. Nunc tincidunt mi non bibendum consequat. Nullam
+            dui
+            sapien, tristique in mattis ac, iaculis sed ipsum. Etiam tristique tincidunt scelerisque. Nulla tellus
+            mauris,
+            mollis id imperdiet at, ornare aliquet lorem. Suspendisse mattis dui id libero gravida efficitur.
+            Pellentesque
+            mauris lectus, accumsan non leo a, varius commodo urna. Vivamus commodo vulputate nulla at pretium. Integer
+            pretium
+            turpis eget nulla sollicitudin, a ultricies sapien sollicitudin.
+
+            Nullam aliquam ut dolor non tristique. Phasellus in congue mi, nec viverra ex. Donec aliquet id justo
+            maximus
+            varius. Donec justo arcu, porttitor vel lectus sit amet, sagittis faucibus nibh. Nulla quam magna, faucibus
+            sit
+            amet
+            tortor fringilla, sagittis ullamcorper ligula. Integer vel lorem iaculis, tincidunt diam et, fermentum leo.
+            Fusce
+            nec elit nibh. Aliquam fermentum rhoncus lorem, luctus vulputate nibh tempus id. Morbi tincidunt massa ut
+            nunc
+            vestibulum, sed auctor dui consectetur. Nam auctor arcu ac eros gravida, et faucibus sem consectetur.
+            Pellentesque
+            odio nibh, rutrum et ultrices at, sodales non odio.</p>
+    </div>
+</main>

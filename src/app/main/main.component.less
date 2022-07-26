@@ -1,0 +1,93 @@
+@cormain:rgb(93, 158, 201);
+@cormsec: rgb(133, 231, 255);
+
+main{
+
+    background-color: @cormain;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+ 
+    gap: 10px;
+
+
+  
+
+    div{
+    width: 500px;
+    background-color:@cormsec ;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 15px;
+        
+
+    
+        p{
+            font-size: clamp(0.9rem,0.9vw,2rem);
+
+        }
+    }
+
+    section{
+        margin-top: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        text-align: center;
+
+     
+        input{
+            width: 80px;
+            text-align: center;
+
+        }
+    }
+
+    .accordion {
+
+    width: 90%;
+
+
+    .accordion__content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    padding: 0 15px;
+    }
+
+    .accordion__button{
+    display:block;
+    width: 100% ;
+    border:none;
+    outline:none;
+    transition: background 0.2s;
+    }
+    
+
+    .accordion__button::after{
+    content: '\25be';
+    float: right;
+    transform:scale(1.5);  
+    }
+
+    .accordion__button--active{
+        background: grey;
+    }
+
+    .accordion_button--active::after{
+        content: '\25b4';       
+     }
+}   
+   
+  
+
+
+#div1, #div2{
+    height: 400px;  
+}
+
+
+
+
+
+}

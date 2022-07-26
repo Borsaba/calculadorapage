@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "./node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -103,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6c2c1a20-416c-4126-9945-61ea91f1c707"
   }
 }
